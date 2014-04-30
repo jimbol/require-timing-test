@@ -1,6 +1,8 @@
 # Require Test
 This is a test to see if the order files are listed in a require block effects the order they're loaded in the browser.
 
+Good require modules should not need to be loaded in any particular order, but in the edge case that they do knowing this would help.
+
 ## Setup
 Run `npm install` to install dependencies.
 Run `node server` to run page on [localhost:3000](http://localhost:3000/)
